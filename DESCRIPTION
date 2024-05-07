@@ -1,0 +1,13 @@
+Package: dasehr
+Type: Package
+Title: DaSEH Course Data
+Version: 0.1.0
+Author: Elizabeth Humphries
+Maintainer: Elizabeth Humphries <ehumphri@fredhutch.org>
+Description: This package contains the datasets used in the Data Science for Environmental Health (DaSEH) short course taught by Ava M. Hoffman and Carrie Wright through the Data Science Lab at the Fred Hutchinson Cancer Center.
+License: file LICENSE
+Encoding: UTF-8
+LazyData: true
+Depends: 
+    R (>= 2.10)
+RoxygenNote: 7.2.3
