@@ -11,3 +11,5 @@ LazyData: true
 Depends: 
     R (>= 2.10)
 RoxygenNote: 7.2.3
+URL: https://github.com/ehumph/dasehr
+BugReports: https://github.com/ehumph/dasehr/issues
