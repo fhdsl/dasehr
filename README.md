@@ -1,0 +1,1 @@
+This package contains the datasets used in examples and labs for the Data Science for Environmental Health (DaSEH) Short Course, supported by NIEHS and run by Ava Hoffman and Carrie Wright from the Data Science Lab at Fred Hutchinson Cancer Center. Additional work on the short course has been contributed by Elizabeth Humphries and Candace Savonen.
