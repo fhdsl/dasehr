@@ -1,0 +1,37 @@
+# Candace Savonen 2024
+
+name: Style Code
+
+on:
+  pull_request:
+    branches: [ main, staging ]
+
+jobs:
+
+  style-code:
+    name: Style code
+    runs-on: ubuntu-latest
+    container:
+      image: cansav09/gimap
+
+    steps:
+      - name: Checkout files
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Login as jhudsl-robot
+        run: |
+          git config --global --add safe.directory $GITHUB_WORKSPACE
+          git config --global user.email "itcrtrainingnetwork@gmail.com"
+          git config --global user.name "jhudsl-robot"
+
+      - name: Run styler
+        run: Rscript -e "styler::style_file(list.files(pattern = 'Rmd$', recursive = TRUE, full.names = TRUE));warnings()"
+
+      - name: Commit styled files
+        run: |
+          git config --system --add safe.directory "$GITHUB_WORKSPACE"
+          git add \*.Rmd
+          git commit -m 'Style Rmds' || echo "No changes to commit"
+          git push origin || echo "No changes to commit"
