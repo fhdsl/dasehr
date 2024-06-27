@@ -12,10 +12,5 @@
 
 ## usethis namespace: start
 #' @importFrom tibble tibble
-#' @import readr
-#' @import dplyr
-#' @import tidyr
-#' @import naniar
-#' @import stringr
 ## usethis namespace: end
 NULL
