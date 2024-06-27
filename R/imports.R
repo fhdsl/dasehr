@@ -10,5 +10,6 @@
 #' @import readxl
 #' @import rmarkdown
 #' @import stringr
+#' @import tibble
 #' @import tidyr
 #' @import tidyverse
