@@ -1,0 +1,51 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# `dasehr` package
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+This package contains the datasets used in examples and labs for the Data Science for Environmental Health (DaSEH) Short Course, supported by NIEHS and run by Ava Hoffman and Carrie Wright from the Data Science Lab at Fred Hutchinson Cancer Center. 
+
+Additional work on the short course has been contributed by Elizabeth Humphries and Candace Savonen.
+
+## Installation
+
+You can install the development version of dataplay from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("fhdsl/dasehr")
+
+# See the datasets available
+library(dasehr)
+?dasehr
+```
+
+## Example
+
+This is a basic example loading the calenviroscreen data:
+
+```{r example, eval = FALSE}
+library(dasehr)
+
+calenviroscreen
+
+```
+
+## Development
+
+We have created a [notes document](extra/dev-notes.Rmd) to make development of the package easier.
