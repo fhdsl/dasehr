@@ -1,0 +1,21 @@
+
+```{r}
+# Load packages necessary
+library(devtools) # imports `usethis`
+```
+
+We are using `devtools` to create this package. To update, make sure you run:
+
+```{r}
+# Create necessary docs!
+document()
+
+# Create workflows - note that these might be updated periodically
+usethis::use_github_action("check-standard")
+usethis::use_github_action("test-coverage")
+usethis::use_github_action("pkgdown")
+usethis::use_github_action("pr-commands")
+
+# Simulate the loading of the library you are creating
+load_all()
+```
