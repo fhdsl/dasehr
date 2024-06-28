@@ -46,5 +46,10 @@ Useful links:
 \author{
 \strong{Maintainer}: Elizabeth Humphries \email{ehumphri@fredhutch.org}
 
+Authors:
+\itemize{
+  \item Ava Hoffman \email{avamariehoffman@gmail.com} (\href{https://orcid.org/0000-0002-1833-4397}{ORCID})
+}
+
 }
 \keyword{internal}
