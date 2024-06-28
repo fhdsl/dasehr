@@ -4,6 +4,8 @@
 # `dasehr` package
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/fhdsl/dasehr/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/fhdsl/dasehr/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 This package contains the datasets used in examples and labs for the
