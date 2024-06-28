@@ -2,8 +2,16 @@ Package: dasehr
 Type: Package
 Title: DaSEH Course Data
 Version: 0.1.0
-Author: Elizabeth Humphries
-Maintainer: Elizabeth Humphries <ehumphri@fredhutch.org>
+Authors@R: 
+  c(person(given = "Elizabeth",
+           family = "Humphries",
+           role = c("aut", "cre"),
+           email = "ehumphri@fredhutch.org"),
+    person(given = "Ava",
+           family = "Hoffman",
+           role = c("aut"),
+           email = "avamariehoffman@gmail.com",
+           comment = c(ORCID = "0000-0002-1833-4397")))
 Description: This package contains the datasets used in the Data Science for Environmental Health (DaSEH) short course taught by Ava M. Hoffman and Carrie Wright through the Data Science Lab at the Fred Hutchinson Cancer Center.
 License: file LICENSE
 Encoding: UTF-8
@@ -11,8 +19,8 @@ LazyData: true
 Depends: 
     R (>= 2.10)
 RoxygenNote: 7.3.1
-URL: https://github.com/ehumph/dasehr
-BugReports: https://github.com/ehumph/dasehr/issues
+URL: https://github.com/fhdsl/dasehr
+BugReports: https://github.com/fhdsl/dasehr/issues
 Suggests: 
     testthat (>= 3.0.0)
 Config/testthat/edition: 3

@@ -12,13 +12,43 @@ This package contains the datasets used in the Data Science for Environmental He
 \details{
 Here is a list of the datasets. They are already stored as objects when you
 load the package.
+
 * `calenviroscreen`: Description here
+
+* `CO_heat_ER_byage`: Description here
+
+* `CO_heat_ER_bygender`: Description here
+
+* `CO_heat_ER_wide`: Description here
+
+* `CO_heat_ER`: Description here
+
+* `covid_wastewater`: Description here
+
+* `er_CO_statewide`: Description here
+
+* `er_visits_by_CO_county`: Description here
+
+* `haa5`: Description here
+
+* `nitrate`: Description here
+
+* `yearly_co2_emissions`: Description here
 }
 \seealso{
 Useful links:
 \itemize{
-  \item \url{https://github.com/ehumph/dasehr}
-  \item Report bugs at \url{https://github.com/ehumph/dasehr/issues}
+  \item \url{https://github.com/fhdsl/dasehr}
+  \item Report bugs at \url{https://github.com/fhdsl/dasehr/issues}
+}
+
+}
+\author{
+\strong{Maintainer}: Elizabeth Humphries \email{ehumphri@fredhutch.org}
+
+Authors:
+\itemize{
+  \item Ava Hoffman \email{avamariehoffman@gmail.com} (\href{https://orcid.org/0000-0002-1833-4397}{ORCID})
 }
 
 }
