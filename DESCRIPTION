@@ -9,7 +9,7 @@ Authors@R:
            email = "ehumphri@fredhutch.org"),
     person(given = "Ava",
            family = "Hoffman",
-           role = c("aut", "cre"),
+           role = c("aut"),
            email = "avamariehoffman@gmail.com",
            comment = c(ORCID = "0000-0002-1833-4397")))
 Description: This package contains the datasets used in the Data Science for Environmental Health (DaSEH) short course taught by Ava M. Hoffman and Carrie Wright through the Data Science Lab at the Fred Hutchinson Cancer Center.
