@@ -18,10 +18,11 @@ Humphries and Candace Savonen.
 
 ## Installation
 
-You can install the development version of dataplay from
+You can install the development version of `dasehr` from
 [GitHub](https://github.com/) with:
 
 ``` r
+# Use devtools or remotes to install from GitHub
 # install.packages("devtools")
 devtools::install_github("fhdsl/dasehr")
 
