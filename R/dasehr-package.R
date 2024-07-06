@@ -16,7 +16,7 @@
 #'
 #'  * `CO_heat_ER`: Age-adjusted heat-related ER visits between 2011 and 2022, as reported by the state of Colorado. This data is gathered by the Colorado Environmental Public Health Tracking program. Read more at https://coepht.colorado.gov/heat-related-illness
 #'
-#'  * `covid_wastewater`: Covid levels in wastewater June 2020 - May 2024, as tracked by the National Wastewater Surveillance System. Read more at https://covid.cdc.gov/covid-data-tracker/#wastewater-surveillance
+#'  * `covid_wastewater`: Covid levels in wastewater June 2020 - May 2024, as tracked by the National Wastewater Surveillance System. Read more at https://data.cdc.gov/Public-Health-Surveillance/NWSS-Public-SARS-CoV-2-Wastewater-Metric-Data/2ew6-ywp6/about_data 
 #'
 #'  * `er_CO_statewide`: Age-adjusted statewide heat-related ER visits between 2011 and 2022, as reported by the state of Colorado. This data is gathered by the Colorado Environmental Public Health Tracking program. Read more at https://coepht.colorado.gov/heat-related-illness
 #'
