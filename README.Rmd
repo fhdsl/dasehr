@@ -50,4 +50,4 @@ calenviroscreen
 
 ## Development
 
-We have created a [notes document](extra/dev-notes.Rmd) to make development of the package easier.
+We have created a [notes document](https://github.com/fhdsl/dasehr/wiki/Dev-notes) to make development of the package easier.
