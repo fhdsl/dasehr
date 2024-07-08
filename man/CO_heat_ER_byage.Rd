@@ -3,20 +3,29 @@
 \docType{data}
 \name{CO_heat_ER_byage}
 \alias{CO_heat_ER_byage}
-\title{Colorado Heat-related Emergency Room Visits (Age Adjusted) by Age Data}
+\title{Statewide heat-related ER visits between 2011 and 2022 by age category, as reported by the state of Colorado.}
 \format{
-An object of class \code{spec_tbl_df} (inherits from \code{tbl_df}, \code{tbl}, \code{data.frame}) with 216 rows and 7 columns.
+A data frame with 216 rows and 7 columns.
+\describe{
+\item{YEAR}{Year between 2011 and 2022}
+\item{GENDER}{Gender, with the option of 'female', 'male', and 'both genders'}
+\item{AGE}{Age category, with the options of '0-4 years old', '5-14 years old', '15-34 years old', '35-64 years old', '65+ years old', and 'All ages'}
+\item{RATE}{Rate of heat-related ER visits}
+\item{L95CL}{Lower 95\% confidence limit of the rate estimate}
+\item{U95CL}{Upper 95\% confidence limit of the rate estimate}
+\item{VISITS}{Number of heat-related ER visits}
+}
 }
 \source{
-Created using data downloaded from x.
+Created using data downloaded from the Colorado Environmental Public Health Tracking program website.
 }
 \usage{
 CO_heat_ER_byage
 }
 \description{
-A dataset used in the DaSEH Short Course. More here..
+A dataset used in the DaSEH Short Course. This data is gathered by the Colorado Environmental Public Health Tracking program.
 }
-\examples{
-data(CO_heat_ER_byage)
+\seealso{
+\code{\link{dasehr-package}}
 }
 \keyword{datasets}

@@ -3,21 +3,25 @@
 \docType{data}
 \name{CO_heat_ER_long}
 \alias{CO_heat_ER_long}
-\title{Colorado Heat-related Emergency Room Visits (Age Adjusted) Data.}
+\title{Long-formatted dataset of age-adjusted heat-related ER visits between 2011 and 2022 for Boulder and Denver counties, as reported by the state of Colorado.}
 \format{
-An object of class \code{spec_tbl_df} (inherits from \code{tbl_df}, \code{tbl}, \code{data.frame}) with 24 rows and 3 columns.
+A data frame with 24 rows and 3 columns.
+\describe{
+\item{county}{CO county, with the option of 'Boulder' or 'Denver'}
+\item{rate}{Age-adjusted rate of heat-related ER visits}
+\item{year}{Year between 2011 and 2022}
+}
 }
 \source{
-Created using data downloaded from x.
+Created using data downloaded from the Colorado Environmental Public Health Tracking program website.
 }
 \usage{
 CO_heat_ER_long
 }
 \description{
-A dataset used in the DaSEH Short Course. This data is in long, or "tidy",
-form. More here..
+A dataset used in the DaSEH Short Course. This data is gathered by the Colorado Environmental Public Health Tracking program.
 }
-\examples{
-data(CO_heat_ER_long)
+\seealso{
+\code{\link{dasehr-package}}
 }
 \keyword{datasets}

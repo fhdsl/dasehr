@@ -77,7 +77,7 @@ A data frame with 8035 rows and 66 columns.
 }
 }
 \source{
-Created by Elizabeth Humphries using data downloaded from the CalEnviroScreen website
+Created by Elizabeth Humphries using data downloaded from the CalEnviroScreen website.
 }
 \usage{
 calenviroscreen
@@ -85,7 +85,7 @@ calenviroscreen
 \description{
 A dataset used in the DaSEH Short Course. The CalEnviroScreen object contains data from CalEnviroScreen 4.0, including the environmental dataset and the demographic dataset.
 }
-\examples{
-data(calenviroscreen)
+\seealso{
+\code{\link{dasehr-package}}
 }
 \keyword{datasets}

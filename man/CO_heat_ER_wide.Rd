@@ -3,21 +3,35 @@
 \docType{data}
 \name{CO_heat_ER_wide}
 \alias{CO_heat_ER_wide}
-\title{Colorado Heat-related Emergency Room Visits (Age Adjusted) Data.}
+\title{Wide-formatted dataset of age-adjusted heat-related ER visits between 2011 and 2022 for Boulder and Denver counties, as reported by the state of Colorado.}
 \format{
-An object of class \code{spec_tbl_df} (inherits from \code{tbl_df}, \code{tbl}, \code{data.frame}) with 2 rows and 13 columns.
+A data frame with 2 rows and 13 columns.
+\describe{
+\item{county}{CO county, with the option of 'Boulder' or 'Denver'}
+\item{2011}{Age-adjusted rate for 2011}
+\item{2012}{Age-adjusted rate for 2012}
+\item{2013}{Age-adjusted rate for 2013}
+\item{2014}{Age-adjusted rate for 2014}
+\item{2015}{Age-adjusted rate for 2015}
+\item{2016}{Age-adjusted rate for 2016}
+\item{2017}{Age-adjusted rate for 2017}
+\item{2018}{Age-adjusted rate for 2018}
+\item{2019}{Age-adjusted rate for 2019}
+\item{2020}{Age-adjusted rate for 2020}
+\item{2021}{Age-adjusted rate for 2021}
+\item{2022}{Age-adjusted rate for 2022}
+}
 }
 \source{
-Created using data downloaded from x.
+Created using data downloaded from the Colorado Environmental Public Health Tracking program website.
 }
 \usage{
 CO_heat_ER_wide
 }
 \description{
-A dataset used in the DaSEH Short Course. This data is in wide form. More
-here..
+A dataset used in the DaSEH Short Course. This data is gathered by the Colorado Environmental Public Health Tracking program.
 }
-\examples{
-data(CO_heat_ER_wide)
+\seealso{
+\code{\link{dasehr-package}}
 }
 \keyword{datasets}
