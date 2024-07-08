@@ -12,7 +12,7 @@
 #' \item{pop_>5-10µg/L}{Population served by public water system with 5 - 10 ug/L nitrates}
 #' \item{pop_>10-20µg/L}{Population served by public water system with 10 - 20 ug/L nitrates}
 #' \item{pop_>20µg/L}{Population served by public water system more than 20 ug/L nitrates}
-#' \item{pop_on_PWS_with_non-detects}{Population served by public water system with no detectable nitrates}
+#' \item{pop_on_PWS_with_non-detect}{Population served by public water system with no detectable nitrates}
 #' \item{pop_exposed_to_exceedances}{Population exposed to nitrates that exceeds recommended limit}
 #' \item{perc_pop_exposed_to_exceedances}{Percentage of the total population exposed to nitrates that exceeds recommended limits}
 #'}
