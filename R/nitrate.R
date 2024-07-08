@@ -19,5 +19,5 @@
 #'
 #' @seealso \code{\link{dasehr-package}}
 #'
-#' @source Created using data downloaded from \link{https://doh.wa.gov/data-and-statistical-reports/washington-tracking-network-wtn/drinking-water}.
+#' @source Created using data downloaded from \url{https://doh.wa.gov/data-and-statistical-reports/washington-tracking-network-wtn/drinking-water}.
 "nitrate"

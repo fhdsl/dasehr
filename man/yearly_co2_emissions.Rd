@@ -11,7 +11,7 @@ A data frame with 192 rows and 265 columns.
 }
 }
 \source{
-Created using data downloaded from \link{https://data.ess-dive.lbl.gov/portals/CDIAC}.
+Created using data downloaded from \url{https://data.ess-dive.lbl.gov/portals/CDIAC}.
 }
 \usage{
 yearly_co2_emissions

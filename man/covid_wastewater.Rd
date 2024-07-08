@@ -22,7 +22,7 @@ A data frame with x rows and x columns.
 }
 }
 \source{
-Created using data downloaded from https://data.cdc.gov/Public-Health-Surveillance/NWSS-Public-SARS-CoV-2-Wastewater-Metric-Data/2ew6-ywp6/about_data.
+Created using data downloaded from \url{https://data.cdc.gov/Public-Health-Surveillance/NWSS-Public-SARS-CoV-2-Wastewater-Metric-Data/2ew6-ywp6/about_data}.
 }
 \usage{
 covid_wastewater

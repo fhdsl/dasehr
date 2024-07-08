@@ -21,7 +21,7 @@ A data frame with 33 rows and 11 columns.
 }
 }
 \source{
-Created using data downloaded from \link{https://doh.wa.gov/data-and-statistical-reports/washington-tracking-network-wtn/drinking-water}.
+Created using data downloaded from \url{https://doh.wa.gov/data-and-statistical-reports/washington-tracking-network-wtn/drinking-water}.
 }
 \usage{
 haa5

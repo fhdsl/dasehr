@@ -9,5 +9,5 @@
 #'
 #' @seealso \code{\link{dasehr-package}}
 #'
-#' @source Created using data downloaded from \link{https://data.ess-dive.lbl.gov/portals/CDIAC}.
+#' @source Created using data downloaded from \url{https://data.ess-dive.lbl.gov/portals/CDIAC}.
 "yearly_co2_emissions"
