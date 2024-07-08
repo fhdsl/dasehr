@@ -73,8 +73,7 @@
 #' \item{HousingBurdenPctl}{Housing burden percentile}
 #'}
 #'
-#' @source Created by Elizabeth Humphries using data downloaded from the CalEnviroScreen website
+#' @seealso \code{\link{dasehr-package}}
 #'
-#' @examples
-#' data(calenviroscreen)
+#' @source Created by Elizabeth Humphries using data downloaded from the CalEnviroScreen website.
 "calenviroscreen"

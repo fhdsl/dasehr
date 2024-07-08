@@ -13,7 +13,7 @@
 #' \item{date_end}{The end date of the interval over which metric is calculated. Intervals are inclusive of start and end dates.}
 #' \item{rna_pct_change_15d}{The percent change in SARS-CoV-2 RNA levels over the 15-day interval defined by 'date_start' and 'date_end'. Percent change is calculated as the modeled change over the interval, based on linear regression of log-transformed SARS-CoV-2 levels. SARS-CoV-2 RNA levels are wastewater concentrations that have been normalized for wastewater composition.}
 #' \item{pos_PCR_prop_15d}{Proportion of positive PCR tests over the 15 day period.}
-#' \item{percentile}{This metric shows whether SARS-CoV-2 virus levels at a site are currently higher or lower than past historical levels at the same site. 0% means levels are the lowest they have been at the site; 100% means levels are the highest they have been at the site. Public health officials watch for increasing levels of the virus in wastewater over time and use this data to help make public health decisions.}
+#' \item{percentile}{This metric shows whether SARS-CoV-2 virus levels at a site are currently higher or lower than past historical levels at the same site. 0\% means levels are the lowest they have been at the site; 100\% means levels are the highest they have been at the site. Public health officials watch for increasing levels of the virus in wastewater over time and use this data to help make public health decisions.}
 #' \item{sampling_prior}{Indicates whether the site was collecting wastewater samples before or on December 1, 2021}
 #' \item{first_sample_date}{The first date samples were collected at a site.}
 #'}

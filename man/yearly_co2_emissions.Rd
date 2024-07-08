@@ -3,20 +3,23 @@
 \docType{data}
 \name{yearly_co2_emissions}
 \alias{yearly_co2_emissions}
-\title{Yearly CO2 Emissions in 1000s of Tonnes Data}
+\title{Estimated yearly CO2 emissions in thousands of tonnes by country, 1751-2014}
 \format{
-An object of class \code{spec_tbl_df} (inherits from \code{tbl_df}, \code{tbl}, \code{data.frame}) with 192 rows and 265 columns.
+A data frame with 192 rows and 265 columns.
+\describe{
+\item{country}{Unique country name}
+}
 }
 \source{
-Created using data downloaded from x.
+Created using data downloaded from \link{https://data.ess-dive.lbl.gov/portals/CDIAC}.
 }
 \usage{
 yearly_co2_emissions
 }
 \description{
-A dataset used in the DaSEH Short Course. More here..
+A dataset used in the DaSEH Short Course. Data gathered by the Carbon Dioxide Information Analysis Center (CDIAC).
 }
-\examples{
-data(yearly_co2_emissions)
+\seealso{
+\code{\link{dasehr-package}}
 }
 \keyword{datasets}

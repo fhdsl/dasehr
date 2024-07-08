@@ -5,20 +5,19 @@
 #' @format A data frame with 12 rows and 5 columns.
 #' \describe{
 #' \item{rate}{Age-adjusted rate of heat-related ER visits}
-#' \item{lower95cl}{Lower 95% confidence limit for the age-adjusted rate}
-#' \item{upper95cl}{Upper 95% confidence limit for the age-adjusted rate}
+#' \item{lower95cl}{Lower 95\% confidence limit for the age-adjusted rate}
+#' \item{upper95cl}{Upper 95\% confidence limit for the age-adjusted rate}
 #' \item{visits}{Total number of heat-related ER visits}
 #' \item{year}{Year between 2011 and 2022}
 #'}
 #'
-#' @source Created using data downloaded from the Colorado Environmental Public Health Tracking program website
+#' @seealso \code{\link{dasehr-package}}
 #'
-#' @examples
-#' data(er_CO_statewide)
+#' @source Created using data downloaded from the Colorado Environmental Public Health Tracking program website
 "er_CO_statewide"
 
 
-#' County-level age-adjusted heat-related ER visits between 2011 and 2022, as reported by the state of Colorado. COntains a subset of Colorado counties.
+#' County-level age-adjusted heat-related ER visits between 2011 and 2022, as reported by the state of Colorado. Contains a subset of Colorado counties.
 #'
 #' A dataset used in the DaSEH Short Course. This data is gathered by the Colorado Environmental Public Health Tracking program.
 #'
@@ -26,14 +25,13 @@
 #' \describe{
 #' \item{county}{Colorado county reporting the data}
 #' \item{rate}{Age-adjusted rate of heat-related ER visits}
-#' \item{lower95cl}{Lower 95% confidence limit for the age-adjusted rate}
-#' \item{upper95cl}{Upper 95% confidence limit for the age-adjusted rate}
+#' \item{lower95cl}{Lower 95\% confidence limit for the age-adjusted rate}
+#' \item{upper95cl}{Upper 95\% confidence limit for the age-adjusted rate}
 #' \item{visits}{Total number of heat-related ER visits}
 #' \item{year}{Year between 2011 and 2022}
 #'}
 #'
-#' @source Created using data downloaded from the Colorado Environmental Public Health Tracking program website
+#' @seealso \code{\link{dasehr-package}}
 #'
-#' @examples
-#' data(er_CO_by_CO_county)
-"er_CO_by_CO_county"
+#' @source Created using data downloaded from the Colorado Environmental Public Health Tracking program website
+"er_CO_county"

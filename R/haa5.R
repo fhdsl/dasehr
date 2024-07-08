@@ -1,6 +1,6 @@
-#' Haloacetic acid (HAA5) exposure for populations on public water systems in the state of Washington for 1999-2020. 
+#' Haloacetic acid (HAA5) exposure for populations on public water systems in the state of Washington for 1999-2020.
 #'
-#' A dataset used in the DaSEH Short Course. Data collected by the Washington Tracking Network
+#' A dataset used in the DaSEH Short Course. Data collected by the Washington Tracking Network.
 #'
 #' @format A data frame with 33 rows and 11 columns.
 #' \describe{
@@ -17,8 +17,7 @@
 #' \item{perc_pop_exposed_to_exceedances}{Percentage of the total population exposed to HAA5 that exceeds recommended limits}
 #'}
 #'
-#' @source Created using data downloaded from https://doh.wa.gov/data-and-statistical-reports/washington-tracking-network-wtn/drinking-water.
+#' @seealso \code{\link{dasehr-package}}
 #'
-#' @examples
-#' data(haa5)
+#' @source Created using data downloaded from \link{https://doh.wa.gov/data-and-statistical-reports/washington-tracking-network-wtn/drinking-water}.
 "haa5"
